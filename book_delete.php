@@ -4,7 +4,7 @@ $tableName = $_SESSION['tableID'];
 include_once('database.php');
 
 //grabs usernameId from url;
-$usernameID = $_GET["usernameID"];
+$usernameID = $_GET["bookId"];
 
 if($usernameID != false) {
     // deletes row from table when usernameID is provided;
