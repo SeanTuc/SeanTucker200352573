@@ -4,6 +4,7 @@ $servername = 'ca-cdbr-azure-central-a.cloudapp.net';
 $dbname = 'videogamesdb';
 $userName = 'b6ee96bd470785';
 $password = 'dc381279';
+echo "start";
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 // setting conn attributes on how to handle mySQL returns;
