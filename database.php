@@ -13,7 +13,7 @@ $password = 'dc381279';
 try {
 // instantiates a new pdo - an db object
 $db = new PDO($dsn, $userName, $password);
-
+echo "connected" ;
 }
 catch(PDOException $e) {
 $message = $e->getMessage();
