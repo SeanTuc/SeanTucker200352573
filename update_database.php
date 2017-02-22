@@ -12,11 +12,11 @@ include_once('database.php');
 
 // check if user is Adding a New Book
     if ($isAddition == "1") {
-
+    echo  "here";
         $sql = "INSERT INTO $tableName ( Title, Author, Price, Genre) 
 VALUES ('$bookTitle', '$bookAuthor', '$bookPrice', '$bookGenre')";
 
-        $conn->exec($sql);
+        $db->exec($sql);
         echo "Record created successfully";
         /*//////////////////////*/
         /* FIX THIS MYSQL QUERY */
@@ -34,10 +34,10 @@ VALUES ('$bookTitle', '$bookAuthor', '$bookPrice', '$bookGenre')";
         $sql = "UPDATE $tableName SET Title = '$bookTitle', Author = '$bookAuthor', Price = '$bookPrice', Genre = '$bookGenre'
  WHERE Id = $bookTitle "; // SQL statement
 
-        $conn->exec($sql);
+        $db->exec($sql);
 
 
-    
+
 }
 
 /*$statement->bindValue(':book_title', $bookTitle);
