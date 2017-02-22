@@ -8,12 +8,12 @@ $booknameID = $_GET["bookID"];
 $tableName = $_SESSION['tableID'];
 
 
-if($usernameID == 0) {
+if($booknameID == 0) {
     //checking for valid username
     $todolist = null;
     $isEmpty = 1;
 } else {
-
+echo "else statement";
     $query = "SELECT * FROM books WHERE Id $booknameID"; // SQL statement
 $statement = $db->prepare($query); // encapsulate the sql statement
 $statement->execute(); // run on the db server
