@@ -14,10 +14,11 @@ $isAddition = " ";
 // check if user is Adding a New Book
     if ($isAddition == "1") {
     echo  "here";
-        $sql = "INSERT INTO books ( Title, Author, Price, Genre) 
-VALUES ('$bookTitle', '$bookAuthor', '$bookPrice', '$bookGenre')";
+        $query = "INSERT INTO books ( Title, Author, Price, Genre) 
+VALUES ('$bookTitle', '$bookAuthor', '$bookPrice', '$bookGenre')"; // SQL statement
+        $statement = $db->prepare($query); // encapsulate the sql statement
+        $statement->execute(); // run on the db server
 
-        $db->exec($sql);
         echo "Record created successfully";
         /*//////////////////////*/
         /* FIX THIS MYSQL QUERY */

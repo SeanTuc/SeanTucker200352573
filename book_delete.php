@@ -9,9 +9,10 @@ echo $usernameID;
 
 if($usernameID != null) {
     // deletes row from table when usernameID is provided;
-    $query = "DELETE FROM books WHERE title = '$usernameID'";
+
+    $query = "DELETE FROM books WHERE Title = $usernameID";
     $statement = $db->prepare($query);
-    $success = $statement->execute();
+    $statement->execute();
     $statement->closeCursor();
     echo "deleted";
 }
