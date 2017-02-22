@@ -3,6 +3,7 @@ session_start();
 include_once('database.php');
 $_SESSION['tableID'] = 'books';
 $tableName = 'books';
+$isAddition = " ";
     $isAddition = $_GET["isAddition"];
     echo $isAddition;
     $bookTitle = filter_input(INPUT_POST, "TitleTextField");
