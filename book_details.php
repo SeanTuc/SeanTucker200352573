@@ -14,7 +14,7 @@ if($booknameID == 0) {
     $isEmpty = 1;
 } else {
 echo "else statement";
-    $query = "SELECT * FROM books WHERE Id = 1"; // SQL statement
+    $query = "SELECT * FROM books WHERE Id = $booknameID"; // SQL statement
 $statement = $db->prepare($query); // encapsulate the sql statement
 $statement->execute(); // run on the db server
 $book = $statement->fetch(); // returns an array
