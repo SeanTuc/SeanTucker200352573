@@ -1,7 +1,7 @@
 <?php
 session_start();
 include_once('database.php');
-try{
+
 
     $isAddition = $_GET["isAddition"];
 
@@ -39,11 +39,7 @@ VALUES ('$bookTitle', '$bookAuthor', '$bookPrice', '$bookGenre')";
 
     }
 }
-catch(PDOException $e)
-{
-    echo $sql . "<br>" . $e->getMessage();
 
-}
 /*$statement->bindValue(':book_title', $bookTitle);
 $statement->bindValue(':book_author', $bookAuthor);
 $statement->bindValue(':book_price', $bookPrice);
