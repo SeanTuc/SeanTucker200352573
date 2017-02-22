@@ -8,8 +8,8 @@ $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 // setting conn attributes on how to handle mySQL returns;
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+$isAddition = $_GET["isAddition"];
 
-$isAddition = filter_input(INPUT_POST, "isAddition");
 $bookTitle = filter_input(INPUT_POST, "TitleTextField");
 $bookAuthor = filter_input(INPUT_POST, "AuthorTextField");
 $bookPrice = filter_input(INPUT_POST, "PriceTextField");
@@ -39,7 +39,7 @@ $bookID = filter_input(INPUT_POST, "IDTextField");
 /* FIX THIS MYSQL QUERY */
 /*//////////////////////*/
     $sql = "UPDATE $tableName SET Title = '$bookTitle', Author = '$bookAuthor', Price = '$bookPrice', Genre = '$bookGenre'
- WHERE Title = $bookTitle "; // SQL statement
+ WHERE Id = $bookTitle "; // SQL statement
 
     $conn->exec($sql);
 
