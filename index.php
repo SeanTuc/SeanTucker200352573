@@ -56,7 +56,7 @@ $statement->closeCursor(); // close the connection
 
                             <td> <!-- Add the Edit Button here -->
 
-                                <a class="btn btn-primary" href="book_details.php?bookID="<?php echo$book['id']; ?>
+                                <a class="btn btn-primary" href="book_details.php?bookID="<?php echo$book['Title']; ?>
                                     <i class="fa fa-plus"></i> Add New Book</a></td>
 
                             <td> <!-- Add the Delete Button here -->
