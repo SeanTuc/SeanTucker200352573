@@ -37,7 +37,7 @@ VALUES ('$bookTitle', '$bookAuthor', '$bookPrice', '$bookGenre')";
         $conn->exec($sql);
 
 
-    }
+    
 }
 
 /*$statement->bindValue(':book_title', $bookTitle);
