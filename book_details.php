@@ -6,7 +6,7 @@ $_SESSION['tableID'] = 'books';
 $tableName = ['tableID'];
 $booknameID = $_GET["bookID"];
 $tableName = $_SESSION['tableID'];
-
+echo $booknameID ;
 
 if($booknameID == 0) {
     //checking for valid username
