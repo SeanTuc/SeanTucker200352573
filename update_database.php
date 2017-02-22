@@ -13,7 +13,7 @@ $tableName = 'books';
 // check if user is Adding a New Book
     if ($isAddition == "1") {
     echo  "here";
-        $sql = "INSERT INTO $tableName ( Title, Author, Price, Genre) 
+        $sql = "INSERT INTO books ( Title, Author, Price, Genre) 
 VALUES ('$bookTitle', '$bookAuthor', '$bookPrice', '$bookGenre')";
 
         $db->exec($sql);
