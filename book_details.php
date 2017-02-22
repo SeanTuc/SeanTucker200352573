@@ -14,7 +14,7 @@ if($usernameID == 0) {
     $isEmpty = 1;
 } else {
     $isEmpty = 0;
-    $query = "SELECT * FROM $tableName WHERE id = '$booknameID' "; // SQL statement
+    $query = "SELECT * FROM $tableName WHERE Title = '$booknameID' "; // SQL statement
     $statement = $db->prepare($query); // encapsulate the sql statement
 
     $statement->execute();
