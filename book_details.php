@@ -17,7 +17,7 @@ echo "else statement";
     $query = "SELECT * FROM books WHERE Id = 1"; // SQL statement
 $statement = $db->prepare($query); // encapsulate the sql statement
 $statement->execute(); // run on the db server
-$book = $statement->fetchAll(); // returns an array
+$book = $statement->fetch(); // returns an array
 $statement->closeCursor(); // close the connection
 echo $book;
 }
