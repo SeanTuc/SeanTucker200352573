@@ -31,7 +31,7 @@ VALUES ('$bookTitle', '$bookAuthor', '$bookPrice', '$bookGenre')";
         /*//////////////////////*/
         /* FIX THIS MYSQL QUERY */
         /*//////////////////////*/
-        $sql = "UPDATE $tableName SET Title = '$bookTitle', Author = '$bookAuthor', Price = '$bookPrice', Genre = '$bookGenre'
+        $sql = "UPDATE books SET Title = '$bookTitle', Author = '$bookAuthor', Price = '$bookPrice', Genre = '$bookGenre'
  WHERE Id = $bookTitle "; // SQL statement
 
         $db->exec($sql);
@@ -40,14 +40,14 @@ VALUES ('$bookTitle', '$bookAuthor', '$bookPrice', '$bookGenre')";
 
 }
 
-/*$statement->bindValue(':book_title', $bookTitle);
+$statement->bindValue(':book_title', $bookTitle);
 $statement->bindValue(':book_author', $bookAuthor);
 $statement->bindValue(':book_price', $bookPrice);
 $statement->bindValue(':book_genre', $bookGenre);
 $statement->execute(); // run on the db server
 $statement->closeCursor(); // close the connection
-*/
-$conn = null ;
+
+//$conn = null ;
 // redirect to index page
 header('Location: index.php');
 ?>
