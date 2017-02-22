@@ -6,7 +6,7 @@ include_once('database.php');
 //grabs usernameId from url;
 $usernameID = $_GET["bookId"];
 
-if($usernameID != false) {
+if($usernameID != null) {
     // deletes row from table when usernameID is provided;
     $query = "DELETE FROM $tableName WHERE id = $usernameID ";
     $statement = $db->prepare($query);
