@@ -39,14 +39,14 @@ VALUES ('$bookTitle', '$bookAuthor', '$bookPrice', '$bookGenre')";
 
 
 }
-
+/*
 $statement->bindValue(':book_title', $bookTitle);
 $statement->bindValue(':book_author', $bookAuthor);
 $statement->bindValue(':book_price', $bookPrice);
 $statement->bindValue(':book_genre', $bookGenre);
 $statement->execute(); // run on the db server
 $statement->closeCursor(); // close the connection
-
+*/
 //$conn = null ;
 // redirect to index page
 header('Location: index.php');
