@@ -60,5 +60,5 @@ $statement->closeCursor(); // close the connection
 */
 $conn = null ;
 // redirect to index page
-header('Location: index.php');
+//header('Location: index.php');
 ?>
