@@ -18,7 +18,7 @@ $bookGenre = filter_input(INPUT_POST, "GenreTextField");
 // check if user is Adding a New Book
 if($isAddition == "1") {
 
-    $sql = "INSERT INTO $tableName ( name, Homework, feedPet, workoutTime) 
+    $sql = "INSERT INTO $tableName ( Title, Author, Price, Genre) 
 VALUES ('$bookTitle', '$bookAuthor', '$bookPrice', '$bookGenre')";
 
     $conn->exec($sql);
@@ -38,8 +38,8 @@ $bookID = filter_input(INPUT_POST, "IDTextField");
 /*//////////////////////*/
 /* FIX THIS MYSQL QUERY */
 /*//////////////////////*/
-    $sql = "UPDATE $tableName SET name = '$bookTitle', Homework = '$bookAuthor', feedPet = '$bookPrice', workoutTime = '$bookGenre'
- WHERE id = $contactID "; // SQL statement
+    $sql = "UPDATE $tableName SET Title = '$bookTitle', Author = '$bookAuthor', Price = '$bookPrice', Genre = '$bookGenre'
+ WHERE Title = $bookTitle "; // SQL statement
 
     $conn->exec($sql);
 
