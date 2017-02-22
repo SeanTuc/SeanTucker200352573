@@ -18,7 +18,7 @@ if($usernameID == 0) {
     $statement = $db->prepare($query); // encapsulate the sql statement
 
     $statement->execute();
-    $todolist = $statement->fetch();
+    $book = $statement->fetch();
     $statement->closeCursor();
 }
 /*//////////////////////*/
