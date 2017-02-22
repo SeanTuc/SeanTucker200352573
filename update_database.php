@@ -1,8 +1,8 @@
 <?php
 session_start();
 include_once('database.php');
-
-
+$_SESSION['tableID'] = 'books';
+$tableName = 'books';
     $isAddition = $_GET["isAddition"];
     echo $isAddition;
     $bookTitle = filter_input(INPUT_POST, "TitleTextField");
@@ -49,5 +49,5 @@ $statement->closeCursor(); // close the connection
 */
 $conn = null ;
 // redirect to index page
-//header('Location: index.php');
+header('Location: index.php');
 ?>

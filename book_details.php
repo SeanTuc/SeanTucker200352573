@@ -1,7 +1,7 @@
 <?php
 session_start();
 include_once('database.php'); // include the database connection file
-
+$_SESSION['tableID'] = 'books';
 // grabs $_GET's and session variables
 $tableName = ['tableID'];
 $booknameID = $_GET["bookID"];
@@ -13,13 +13,13 @@ if($usernameID == 0) {
     $todolist = null;
     $isEmpty = 1;
 } else {
-    $isEmpty = 0;
-    $query = "SELECT * FROM $tableName WHERE Title = '$booknameID' "; // SQL statement
-    $statement = $db->prepare($query); // encapsulate the sql statement
 
-    $statement->execute();
-    $book = $statement->fetch();
-    $statement->closeCursor();
+    $query = "SELECT * FROM books WHERE Id $booknameID"; // SQL statement
+$statement = $db->prepare($query); // encapsulate the sql statement
+$statement->execute(); // run on the db server
+$book = $statement->fetchAll(); // returns an array
+$statement->closeCursor(); // close the connection
+
 }
 /*//////////////////////*/
 /* YOUR CODE GOES HERE */
