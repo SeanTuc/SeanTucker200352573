@@ -1,13 +1,7 @@
 <?php
 session_start();
-$dsn = 'mysql:host=ca-cdbr-azure-central-a.cloudapp.net;dbname=videogamesdb';
-$userName = 'b6ee96bd470785';
-$password = 'dc381279';
-echo "start";
-try {
-    $conn = new PDO($dsn, $userName, $password);
-// setting conn attributes on how to handle mySQL returns;
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+include_once('database.php');
+try{
 
     $isAddition = $_GET["isAddition"];
 

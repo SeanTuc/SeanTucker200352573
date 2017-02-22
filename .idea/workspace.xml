@@ -40,11 +40,11 @@
       <file leaf-file-name="update_database.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/update_database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+            <state relative-caret-position="51">
+              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               <folding>
-                <marker date="1487800858853" expanded="true" signature="724:843" ph="INSERT INTO ${$tableName}... " />
-                <marker date="1487800858853" expanded="true" signature="1269:1392" ph="UPDATE ${$ta... " />
+                <marker date="1487800984925" expanded="true" signature="431:550" ph="INSERT INTO ${$tableName}... " />
+                <marker date="1487800984925" expanded="true" signature="976:1099" ph="UPDATE ${$ta... " />
               </folding>
             </state>
           </provider>
@@ -53,8 +53,8 @@
       <file leaf-file-name="book_details.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book_details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+            <state relative-caret-position="34">
+              <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="29" />
               <folding>
                 <marker date="1487799448328" expanded="true" signature="365:379" ph="SELECT * FRO... ${$tableName}" />
                 <marker date="1487799448328" expanded="true" signature="365:389" ph="SELECT * FRO... ${$tableName}" />
@@ -260,12 +260,12 @@
       <workItem from="1487740943374" duration="398000" />
       <workItem from="1487741415050" duration="1343000" />
       <workItem from="1487794063437" duration="3023000" />
-      <workItem from="1487797220569" duration="3172000" />
+      <workItem from="1487797220569" duration="3305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7936000" />
+    <option name="totallyTimeSpent" value="8069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -324,8 +324,8 @@
         <state relative-caret-position="340">
           <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
-            <marker date="1487800858853" expanded="true" signature="724:843" ph="INSERT INTO ${$tableName}... " />
-            <marker date="1487800858853" expanded="true" signature="1269:1392" ph="UPDATE ${$ta... " />
+            <marker date="1487800984925" expanded="true" signature="431:550" ph="INSERT INTO ${$tableName}... " />
+            <marker date="1487800984925" expanded="true" signature="976:1099" ph="UPDATE ${$ta... " />
           </folding>
         </state>
       </provider>
@@ -367,8 +367,8 @@
         <state relative-caret-position="323">
           <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding>
-            <marker date="1487800858853" expanded="true" signature="724:843" ph="INSERT INTO ${$tableName}... " />
-            <marker date="1487800858853" expanded="true" signature="1269:1392" ph="UPDATE ${$ta... " />
+            <marker date="1487800984925" expanded="true" signature="431:550" ph="INSERT INTO ${$tableName}... " />
+            <marker date="1487800984925" expanded="true" signature="976:1099" ph="UPDATE ${$ta... " />
           </folding>
         </state>
       </provider>
@@ -414,13 +414,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/book_details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="29" />
           <folding>
             <marker date="1487799448328" expanded="true" signature="365:379" ph="SELECT * FRO... ${$tableName}" />
             <marker date="1487799448328" expanded="true" signature="365:389" ph="SELECT * FRO... ${$tableName}" />
             <marker date="1487799448328" expanded="true" signature="365:417" ph="SELECT * FRO... ${$tableName}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -434,21 +442,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/update_database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding>
-            <marker date="1487800858853" expanded="true" signature="724:843" ph="INSERT INTO ${$tableName}... " />
-            <marker date="1487800858853" expanded="true" signature="1269:1392" ph="UPDATE ${$ta... " />
+            <marker date="1487800984925" expanded="true" signature="431:550" ph="INSERT INTO ${$tableName}... " />
+            <marker date="1487800984925" expanded="true" signature="976:1099" ph="UPDATE ${$ta... " />
           </folding>
         </state>
       </provider>
