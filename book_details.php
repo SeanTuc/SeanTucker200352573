@@ -25,7 +25,7 @@ $statement->closeCursor(); // close the connection
 /* YOUR CODE GOES HERE */
 /*/////////////////////*/
 
-$book = ""; // this is just a placeholder
+//$book = ""; // this is just a placeholder
 
 ?>
 <!DOCTYPE html>

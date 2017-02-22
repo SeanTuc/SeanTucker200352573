@@ -28,8 +28,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="461">
+              <caret line="47" column="55" lean-forward="true" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
               <folding>
                 <marker date="1487802055306" expanded="true" signature="95:114" ph="SELECT * FRO... books" />
               </folding>
@@ -53,11 +53,11 @@
       <file leaf-file-name="book_details.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book_details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="27" column="2" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
               <folding>
-                <marker date="1487802998392" expanded="true" signature="419:448" ph="SELECT * FRO... books" />
-                <marker date="1487802998392" expanded="true" signature="419:449" ph="SELECT * FRO... books" />
+                <marker date="1487803145272" expanded="true" signature="419:448" ph="SELECT * FRO... books" />
+                <marker date="1487803145272" expanded="true" signature="419:449" ph="SELECT * FRO... books" />
               </folding>
             </state>
           </provider>
@@ -261,12 +261,12 @@
       <workItem from="1487740943374" duration="398000" />
       <workItem from="1487741415050" duration="1343000" />
       <workItem from="1487794063437" duration="3023000" />
-      <workItem from="1487797220569" duration="5310000" />
+      <workItem from="1487797220569" duration="5452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10074000" />
+    <option name="totallyTimeSpent" value="10216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -336,8 +336,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487802998392" expanded="true" signature="419:448" ph="SELECT * FRO... books" />
-            <marker date="1487802998392" expanded="true" signature="419:449" ph="SELECT * FRO... books" />
+            <marker date="1487803145272" expanded="true" signature="419:448" ph="SELECT * FRO... books" />
+            <marker date="1487803145272" expanded="true" signature="419:449" ph="SELECT * FRO... books" />
           </folding>
         </state>
       </provider>
@@ -380,8 +380,8 @@
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="25" />
           <folding>
-            <marker date="1487802998392" expanded="true" signature="419:448" ph="SELECT * FRO... books" />
-            <marker date="1487802998392" expanded="true" signature="419:449" ph="SELECT * FRO... books" />
+            <marker date="1487803145272" expanded="true" signature="419:448" ph="SELECT * FRO... books" />
+            <marker date="1487803145272" expanded="true" signature="419:449" ph="SELECT * FRO... books" />
           </folding>
         </state>
       </provider>
@@ -405,14 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/update_database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -420,16 +412,6 @@
           <folding>
             <marker date="1487802547583" expanded="true" signature="517:636" ph="INSERT INTO ${$tableName}... " />
             <marker date="1487802547583" expanded="true" signature="1060:1183" ph="UPDATE ${$ta... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <marker date="1487802055306" expanded="true" signature="95:114" ph="SELECT * FRO... books" />
           </folding>
         </state>
       </provider>
@@ -446,13 +428,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="47" column="55" lean-forward="true" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
+          <folding>
+            <marker date="1487802055306" expanded="true" signature="95:114" ph="SELECT * FRO... books" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book_details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="255">
+          <caret line="27" column="2" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
           <folding>
-            <marker date="1487802998392" expanded="true" signature="419:448" ph="SELECT * FRO... books" />
-            <marker date="1487802998392" expanded="true" signature="419:449" ph="SELECT * FRO... books" />
+            <marker date="1487803145272" expanded="true" signature="419:448" ph="SELECT * FRO... books" />
+            <marker date="1487803145272" expanded="true" signature="419:449" ph="SELECT * FRO... books" />
           </folding>
         </state>
       </provider>
