@@ -19,7 +19,7 @@ $statement = $db->prepare($query); // encapsulate the sql statement
 $statement->execute(); // run on the db server
 $book = $statement->fetchAll(); // returns an array
 $statement->closeCursor(); // close the connection
-
+echo $book;
 }
 /*//////////////////////*/
 /* YOUR CODE GOES HERE */
