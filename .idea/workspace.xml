@@ -53,8 +53,8 @@
       <file leaf-file-name="book_details.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book_details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+            <state relative-caret-position="51">
+              <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
               <folding>
                 <marker date="1487804822222" expanded="true" signature="419:450" ph="SELECT * FRO... books" />
                 <marker date="1487804822222" expanded="true" signature="419:451" ph="SELECT * FRO... books" />
@@ -261,12 +261,12 @@
       <workItem from="1487740943374" duration="398000" />
       <workItem from="1487741415050" duration="1343000" />
       <workItem from="1487794063437" duration="3023000" />
-      <workItem from="1487797220569" duration="7124000" />
+      <workItem from="1487797220569" duration="7171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11888000" />
+    <option name="totallyTimeSpent" value="11935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -448,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/book_details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        <state relative-caret-position="51">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
           <folding>
             <marker date="1487804822222" expanded="true" signature="419:450" ph="SELECT * FRO... books" />
             <marker date="1487804822222" expanded="true" signature="419:451" ph="SELECT * FRO... books" />
