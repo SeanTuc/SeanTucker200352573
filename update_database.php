@@ -4,7 +4,7 @@ include_once('database.php');
 
 
     $isAddition = $_GET["isAddition"];
-
+    echo $isAddition;
     $bookTitle = filter_input(INPUT_POST, "TitleTextField");
     $bookAuthor = filter_input(INPUT_POST, "AuthorTextField");
     $bookPrice = filter_input(INPUT_POST, "PriceTextField");
@@ -49,5 +49,5 @@ $statement->closeCursor(); // close the connection
 */
 $conn = null ;
 // redirect to index page
-header('Location: index.php');
+//header('Location: index.php');
 ?>

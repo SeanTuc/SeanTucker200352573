@@ -61,7 +61,7 @@ $statement->closeCursor(); // close the connection
 
                             <td> <!-- Add the Delete Button here -->
 
-                                <a class="btn btn-primary" href="book_delete.php?isAddition=1">
+                                <a class="btn btn-primary" href="book_delete.php?isAddition=1?bookId=<?php echo $book['ID']; ?>">
                                     <i class="fa fa-plus"></i> Add New Book</a></td>
                         </tr>
                     <?php endforeach; ?>
